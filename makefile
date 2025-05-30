@@ -74,6 +74,7 @@ clean:  ## 🧹 Clean up project
 	rm -rf $(SRC_DIR)/app/tests/__pycache__
 	rm -rf .pytest_cache
 	rm -rf $(SRC_DIR)/.pytest_cache
+	rm -rf .pytest_cache
 
 # ============================================================================
 
